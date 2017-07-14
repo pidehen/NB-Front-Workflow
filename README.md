@@ -10,7 +10,8 @@
 现在就是要基于这个目的进行工作流构建，旨在提高前端开发效率。
 
 ## 工作流技术选型
-* NB-Element.js + NB-AJAX.js + NB-Fit.js + NB-TabClick.js
+* NB-Element.js + NB-AJAX.js + NB-Fit.js + NB-TapClick.js
+* NB-Class.js(面向对象编程)
 * NB-Router.js(路由分发)
 * NB-Tpl.js(模板引擎)
 * NB-MVC.js(MVC)
@@ -25,6 +26,6 @@
 
 ## NB-Fit.js
 移动端适配，一套代码适应不同分辨率的机型
-其实就是先得到出设备像素比，然后得到缩放，设置布局视口=理想市口，
+其实就是先得出设备像素比，然后得到缩放，设置布局视口=理想市口，
 在iphone中通过设置initial-scale=scale，android中通过设置initial-scale=1
 然后设置根元素的font-size为当前屏幕尺寸 / 10，rem就是根据屏幕进行适配
